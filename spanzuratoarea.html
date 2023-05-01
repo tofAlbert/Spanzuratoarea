@@ -3,18 +3,23 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Spazuratoarea</title>
-        <link rel="stylesheet" href="sapnzuratoarea.css"
+        <!-- <title>Spazuratoarea</title> -->
+        <link rel="stylesheet" href="spanzuratoarea.css"
     </head>
     <body>
+        <div class="titlu">
+            <!-- titlul paginii -->
+            <h2>Spanzuratoarea</h2>
+        </div>
         <div class="desen"> 
-             <!-- Aici este desenul jocului -->
+             <!-- Aici este structura sapnzuratorii -->
             <svg id="structura" viewBox="74.127 74.277 216.232 290.073" width="216.232" height="290.073">
                 <line id="structura" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="74.127" y1="363.789" x2="141.816" y2="364.35"></line>
                 <line id="structura" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="107.521" y1="364.067" x2="107.562" y2="74.525"></line>
                 <line id="structura" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="91.004" y1="74.277" x2="256.166" y2="75.673"></line>
                 <line id="structura" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="238.397" y1="75.729" x2="238.005" y2="97.432"></line>
                 <line id="structura" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="107.548" y1="115.571" x2="145.657" y2="74.953"></line>
+                <!-- De aici incepe personajul -->
                 <ellipse id="element6" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="237.668" cy="118.834" rx="20.179" ry="21.861"></ellipse>
                 <line id="element6" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="242.153" y1="112.548" x2="247.628" y2="117.421"></line>
                 <line id="element6" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="247.437" y1="112.594" x2="242.346" y2="117.518"></line>
@@ -28,6 +33,11 @@
                 <line id="element1" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="236.547" y1="248.879" x2="188.901" y2="304.372"></line>
             </svg>
         </div>
+        <div class="cuvant">
+            <!-- Aici o sa scriem codul pentru cuvant -->
+        </div>
+        <!-- In acest paragraf se va afisa rezultatul daca ai castigat sau daca ai pierdut -->
+        <p class="mesajul"></p>
         <div class="keywords">
             <!-- tastatura jocului -->
             <div id="row">
@@ -63,5 +73,7 @@
             <button id="letter">M</button>
             </div>
         </div>
-        <script type="text/javascript" src="sapnzuratoarea.js"></script>
+        <button class="restart">Restart</button>
+        <!-- Buton pentru restartarea jocului -->
+        <script type="text/javascript" src="spanzuratoarea.js"></script>
     </body>

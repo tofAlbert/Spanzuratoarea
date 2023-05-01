@@ -1,0 +1,48 @@
+*{
+    display: block;
+}
+/* Stilizare titlu */
+.titlu{
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 2px solid black; */
+}
+
+h2{
+    margin-left:20px;
+}
+/* Stilizare imagine personaj*/
+.desen{
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+    padding: 20px 0 20px 0;
+    margin-left: 725px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Structura sapnzuratorii */
+#structura{
+   margin-left: 100px;
+}
+/* Stilizare randuri litere */
+#row{
+    display: flex;
+    column-gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+/* Stilizare litere */
+#letter{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+
+}
+/* Stilizare buton restart */
+.restart{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
