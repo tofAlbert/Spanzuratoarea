@@ -46,3 +46,14 @@ h2{
     height: 40px;
     margin-top: 20px;
 }
+
+
+/* Stilizare mesaj */
+.mesajul{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+
+}
